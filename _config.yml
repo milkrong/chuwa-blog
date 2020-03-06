@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: CodingEric
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Eric Liu
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://codingeric.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,22 +93,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-huhu
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-#https://github.com/alexbruno/hexo-generator-json-content
-jsonContent:
-  dateFormat: YYYY/MM/DD
-  pages: false
-  posts:
-    tags: true
-    title: true
-    date: true
-    text: true
-    permalink: true
-    photos: true
-  file: content.json
